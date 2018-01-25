@@ -1,0 +1,15 @@
+div {
+    text-align: center;
+    border: 2px solid;
+}
+
+canvas {
+    border: 2px solid black;
+}
+
+input {
+    border-width: 0px;
+    text-align: center;
+    vertical-align: center;
+    font-size: 18pt;
+}

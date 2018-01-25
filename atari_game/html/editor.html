@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edite Atari</title>
+    <script src="../js/utils.js"></script>
+    <script src="../js/image_object/image.js"></script>
+    <script src="../js/image_object/block.js"></script>
+    <script src="../js/image_object/bullet.js"></script>
+    <script src="../js/image_object/paddle.js"></script>
+    <script src="../js/scene/scene_param.js"></script>
+    <script src="../js/scene/background.js"></script>
+    <script src="../js/scene/scene.js"></script>
+    <script src="../js/scene/game_scene.js"></script>
+    <script src="../js/game.js"></script>
+    <script src="../js/game_main.js"></script>
+    <script src="../js/editor_main.js"></script>
+    <script src="../js/score.js"></script>
+    <script src="../js/utils.js"></script>
+</head>
+
+<body>
+    <!-- 引用外部的css文件 -->
+    <link rel="stylesheet" href="../css/editor.css" type="text/css" />
+    <div>
+        <div id="id_canvas_div">
+            <canvas id="id_canvas" width="400" height="300"></canvas>
+        </div>
+        <div id="id_editor_div">
+            <input class="id_label_show" type="text" value="帧率" width="30%"><br>
+            <input id="id_range" type="range"><br>
+            <input id="id_button_red" type="button" value="增加红色砖块"><br>
+            <input id="id_button_green" type="button" value="增加绿色砖块"><br>
+            <input id="id_button_blue" type="button" value="增加蓝色砖块"><br>
+            <input id="id_color_select" type="color" name="颜色">
+        </div>
+    </div>
+    <hr>
+    <script>
+        main()
+    </script>
+</body>
+
+</html>

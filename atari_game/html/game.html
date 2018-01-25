@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atari</title>
+    <script src="../js/utils.js"></script>
+    <script src="../js/image_object/image.js"></script>
+    <script src="../js/image_object/block.js"></script>
+    <script src="../js/image_object/bullet.js"></script>
+    <script src="../js/image_object/paddle.js"></script>
+    <script src="../js/game_param.js"></script>
+    <script src="../js/scene/background.js"></script>
+    <script src="../js/scene/scene.js"></script>
+    <script src="../js/scene/end_scene.js"></script>
+    <script src="../js/scene/game_scene.js"></script>
+    <script src="../js/game.js"></script>
+    <script src="../js/game_main.js"></script>
+    <script src="../js/score.js"></script>
+</head>
+
+<body>
+    <!-- 引用外部的css文件 -->
+    <link rel="stylesheet" href="../css/game.css" type="text/css" />
+    <div>
+        <canvas id="id_game_background" width="400" height="300"></canvas>
+    </div>
+    <hr>
+    <div>
+        <input class="show_label" tepe="label" value="分数">
+        <input id="id_score" type="text"></input>
+    </div>
+    <script>
+        main()
+    </script>
+</body>
+
+</html>
