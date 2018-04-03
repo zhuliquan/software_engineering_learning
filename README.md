@@ -18,7 +18,7 @@ cells项目是第一次实验的第一个个作业，里面主要采用了MVC模
 ## 3 EA_homework项目
 利用Enterprise Architect开发的微信抢票程序 
 
-## 4 Tetris项目
+## 4 tetris项目
 自己学习java的时候写的命令行模式的俄罗斯方块项目
 
 ### 5.1 atari_game项目
