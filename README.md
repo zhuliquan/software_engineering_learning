@@ -24,5 +24,5 @@ cells项目是第一次实验的第一个个作业，里面主要采用了MVC模
 ### 5.1 atari_game项目
 自己学习html/css/javascript的时候自己写的一个打砖块的游戏
 
-### 6.2 particle项目
+### 5.2 particle项目
 自己学习的html/css/javascript的时候自己写的一个粒子效果的网页
