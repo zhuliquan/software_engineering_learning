@@ -25,4 +25,7 @@ cells项目是第一次实验的第一个个作业，里面主要采用了MVC模
 自己学习html/css/javascript的时候自己写的一个打砖块的游戏
 
 ## 5.2 particle项目
-自己学习的html/css/javascript的时候自己写的一个粒子效果的网页
+自己学习html/css/javascript的时候自己写的一个粒子效果的网页
+
+## 5.3 rain项目
+自己学习html/css/javascript的时候自己写的一个雨滴效果的网页
